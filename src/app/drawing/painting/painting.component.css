@@ -1,0 +1,21 @@
+.container{
+    height: 100%;
+    width: 100%;
+}
+
+canvas{
+    width: 1000px;
+    height: 600px;
+    border: solid;
+    margin-left: 10%;
+}
+h1{
+    margin-left: 5%;
+    font-style: oblique;
+    color: brown;
+    font-size: xx-large;
+}
+
+.makeitcenter{
+    margin-left: 10%;
+}

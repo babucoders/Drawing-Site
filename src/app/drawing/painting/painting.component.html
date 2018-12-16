@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <app-header></app-header>
+    </div>
+  </div>
+  <div class="row">
+   <div class="col-md-12">
+      <h1>Welcome to online drawing site where you can design your ideas in art work </h1><br><br>
+      <div class="makeitcenter">
+        <form>
+          <button class="btn btn-primary btn-lg" type="button" (click)="erase()">Eraser</button>
+          <button class="btn btn-success btn-lg" type="button" (click)="init()">Draw Line</button>
+          <button class="btn btn-success btn-lg" type="button" (click)="rect()">Draw Rectangle</button>
+          <button class="btn btn-success btn-lg" type="button" (click)="triangle()">Draw Triangle</button>
+          <button class="btn btn-success btn-lg" type="button" (click)="circle()">Draw Circle</button>
+          <button class="btn btn-success btn-lg" type="button" (click)="draw()">Drawing Text using Pen</button>
+          <button class="btn btn-danger btn-lg" type="button" (click)="exit()">Click to Reset</button>
+        </form>
+      </div>
+     <canvas id="canvas"></canvas>
+   </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <app-footer></app-footer>
+    </div>
+  </div>
+</div>
+<!--https://eloquentjavascript.net/17_canvas.html-->
